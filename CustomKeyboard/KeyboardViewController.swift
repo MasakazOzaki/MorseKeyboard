@@ -110,11 +110,11 @@ class KeyboardViewController: UIInputViewController {
     }
     
     @objc func pushSpace() {
-        self.textDocumentProxy.insertText("   ")
+        self.textDocumentProxy.insertText("　")
     }
     
     @objc func pushDot() {
-        self.textDocumentProxy.insertText("・")
+        self.textDocumentProxy.insertText("•")
     }
     
     @objc func pushDash() {
